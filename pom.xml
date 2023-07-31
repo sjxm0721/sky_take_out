@@ -30,6 +30,8 @@
         <jjwt>0.9.1</jjwt>
         <jaxb-api>2.3.1</jaxb-api>
         <poi>3.16</poi>
+        <jaxb-activation-api>1.2.0</jaxb-activation-api>
+        <glassfish-jaxb>2.3.4</glassfish-jaxb>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -103,6 +105,18 @@
                 <groupId>javax.xml.bind</groupId>
                 <artifactId>jaxb-api</artifactId>
                 <version>${jaxb-api}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.activation</groupId>
+                <artifactId>javax.activation-api</artifactId>
+                <version>${jaxb-activation-api}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.glassfish.jaxb</groupId>
+                <artifactId>jaxb-runtime</artifactId>
+                <version>${glassfish-jaxb}</version>
             </dependency>
 
             <!-- poi -->

@@ -22,6 +22,7 @@ import java.util.List;
 
 /**
  * 配置类，注册web层相关组件
+ * 定制化SpringMVC配置
  */
 @Configuration
 @Slf4j

@@ -20,8 +20,8 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 //自定义切面，实现公共字段自动填充
-@Aspect
-@Component
+@Aspect //切面类
+@Component //交由spring管理
 @Slf4j
 public class AutoFillAspect {
 

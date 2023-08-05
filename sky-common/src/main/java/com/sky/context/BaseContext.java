@@ -1,5 +1,8 @@
 package com.sky.context;
 
+/**
+ * 线程类相关，使用线程临时空间存储一次请求中需要使用的信息
+ */
 public class BaseContext {
 
     public static ThreadLocal<Long> threadLocal = new ThreadLocal<>();

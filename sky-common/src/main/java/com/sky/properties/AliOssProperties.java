@@ -4,6 +4,11 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+/**
+ * 阿里云OSS配置类
+ * 具体值在配置文件中的sky.alioss下
+ */
+
 @Component
 @ConfigurationProperties(prefix = "sky.alioss")
 @Data

@@ -1,5 +1,8 @@
 package com.sky.constant;
 
+/**
+ * JWT令牌所需的相关常量名
+ */
 public class JwtClaimsConstant {
 
     public static final String EMP_ID = "empId";

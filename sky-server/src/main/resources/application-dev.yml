@@ -10,7 +10,7 @@ sky:
     endpoint: oss-cn-hangzhou.aliyuncs.com
     access-key-id: LTAI5tSNp2vFSMDr66Sq9jUT
     access-key-secret: m45MvpQQvYVjLoolF9C0hk2j3phSkn
-    bucket-name: sky-take-out-
+    bucket-name: sky-take-out-sjxm
   redis:
     host: localhost
     port: 6379

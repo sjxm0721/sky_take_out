@@ -24,6 +24,7 @@ import static com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_UNKN
  */
 public class JacksonObjectMapper extends ObjectMapper {
 
+    //规范json中时间数据的表现格式
     public static final String DEFAULT_DATE_FORMAT = "yyyy-MM-dd";
     //public static final String DEFAULT_DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
     public static final String DEFAULT_DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm";

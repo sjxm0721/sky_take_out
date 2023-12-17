@@ -8,8 +8,8 @@ sky:
     password: Wcy674648
   alioss:
     endpoint: oss-cn-hangzhou.aliyuncs.com
-    access-key-id: LTAI5tSNp2vFSMDr66Sq9jUT
-    access-key-secret: m45MvpQQvYVjLoolF9C0hk2j3phSkn
+    access-key-id: XXXXXXXXX
+    access-key-secret: XXXXXXXXXX
     bucket-name: sky-take-out-sjxm
   redis:
     host: localhost
